@@ -22,7 +22,7 @@ import yaml
 import kubernetes as k8s
 from kubernetes.stream import stream
 
-NAMESPACE = 'default'
+NAMESPACE = 'hydro-test1'
 
 
 def replace_yaml_val(yaml_dict, name, val):
